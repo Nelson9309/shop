@@ -57,7 +57,17 @@ a {
   align-self: center;
   font-weight: 300;
   font-size: 18px;
-  color: black;
+  color: #5a5a5a;
+}
+.header__search .sign:before {
+  content: url(../img/icons/user.png);
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.header__search .cart:before {
+  content: url(../img/icons/shopping-bag.png);
+  vertical-align: middle;
+  margin-right: 8px;
 }
 .header__search .header_logo {
   flex: 0 0 60px;
@@ -302,7 +312,7 @@ a {
 
 @media (max-width: 767px) {
   .slider {
-    margin-top: 130px;
+    margin-top: 120px;
   }
 
   .slider__item {
@@ -629,21 +639,22 @@ a {
   height: 400px;
   font-size: 14px;
 }
+.footer h3 {
+  margin-bottom: 20px;
+}
 
 .footer__item {
   width: 230px;
+  height: 200px;
 }
 
-.footer__shop p {
-  margin-top: 20px;
-}
 .footer__shop img {
   margin-top: 70px;
 }
 
 .footer__menu a {
   color: #9e9e9e;
-  margin: 5px 0 5px 0;
+  margin: 0px 0 5px 0;
 }
 .footer__menu .footer__menu_ {
   display: flex;
@@ -667,7 +678,7 @@ a {
 .blog1 {
   display: flex;
   align-items: center;
-  margin: 15px 0 5px 0;
+  margin: 0px 0 5px 0;
 }
 
 .blog__text {
@@ -680,18 +691,7 @@ a {
   margin: 15px 0 5px 0;
 }
 
-.footer__contacts p {
-  margin-top: 30px;
-}
 .footer__contacts a {
   color: #9e9e9e;
   text-decoration: underline;
-}
-
-.footer__soc {
-  background-color: #000;
-  height: 100px;
-}
-.footer__soc hr {
-  opacity: 0.3;
 }
